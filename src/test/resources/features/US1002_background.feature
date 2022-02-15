@@ -1,3 +1,4 @@
+@paralel2
 Feature: US1002 Background ile amazon search testi
 
   Background: amazon sayfasina gidis

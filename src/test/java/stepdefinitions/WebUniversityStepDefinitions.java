@@ -20,14 +20,17 @@ public class WebUniversityStepDefinitions {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
 
     }
+
     @Given("Login Portal'a tiklar")
     public void login_portal_a_tiklar() {
 
         webUniversityPage.webUniversityLoginPortal.click();
 
     }
+
     @Then("acilan Diger window'a gecer")
     public void acilan_diger_window_a_gecer() {
+
         ReusableMethods.switchToWindow("WebDriver | Login Portal");
 
     }
@@ -52,9 +55,11 @@ public class WebUniversityStepDefinitions {
         Assert.assertEquals(popUpYazi, alertYazisi);
 
     }
+
     @Then("Ok diyerek Popup'i kapatir")
     public void ok_diyerek_popup_i_kapatir() {
-    Driver.getDriver().switchTo().alert().accept();
+
+        Driver.getDriver().switchTo().alert().accept();
 
 
     }
@@ -62,7 +67,9 @@ public class WebUniversityStepDefinitions {
     public void ilk_sayfaya_geri_doner() {
 
 ReusableMethods.switchToWindow("WebDriverUniversity.com");
+
     }
+
     @Then("Ilk sayfaya donuldugunu test eder")
     public void ilk_sayfaya_donuldugunu_test_eder() {
 
