@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.201">
+    <testcase classname="US1013 Invalide email testi" name="TC18 Invalid email ile giris yapilamaz" time="17.805">
+        <system-out><![CDATA[Given kullanici "AutomationPracticeUrl" sayfasina gider.....................passed
+And user sign in linkine tiklar.............................................passed
+And email kutusuna @isareti olmayan email adresi yazar ve enter'a tiklar....passed
+Then error mesajinin “Invalid email address”  oldugunu dogrulayin...........passed
+]]></system-out>
+    </testcase>
+</testsuite>
